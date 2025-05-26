@@ -1,5 +1,6 @@
 // priority: 0
 
+/** @type {function(Internal.RecipesEventJS): void } */
 const registerFirmaLifeRecipes = (event) => {
 
 	global.FIRMALIFE_DISABLED_ITEMS.forEach(item => {
